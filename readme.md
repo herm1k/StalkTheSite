@@ -1,4 +1,4 @@
-# Telegram Website Change Monitor
+# Telegram StalkTheSite Website  Monitor
 
 This Python script monitors web pages for changes and notifies you via Telegram if any changes are detected.
 
@@ -29,7 +29,7 @@ This Python script monitors web pages for changes and notifies you via Telegram 
 1. Clone the repository:
     
     ```
-    git clone https://github.com/yourusername/telegram-website-monitor.git
+    git clone https://github.com/herm1k/StalkTheSite
     cd telegram-website-monitor
     ```
     
@@ -51,13 +51,13 @@ This Python script monitors web pages for changes and notifies you via Telegram 
 Run the script with:
 
 ```
-python watcher.py
+python StalkTheSite.py
 ```
 
 To keep it running in the background on a Linux server, use:
 
 ```
-nohup python watcher.py &
+nohup python StalkTheSite.py &
 ```
 
 ## How It Works
